@@ -10,7 +10,7 @@ module.exports = {
   },
   target: 'web',
   devServer: {
-    port: '5000',
+    port: '5050',
     allowedHosts: 'all',
     static: {
       directory: path.join(__dirname, 'public')
@@ -29,6 +29,7 @@ module.exports = {
         exclude: /node_modules/, 
         use: 'babel-loader', 
       },
+      { test: /\.css$/, use: [ 'style-loader', 'css-loader' ] },
     ],
   },
   plugins: [
