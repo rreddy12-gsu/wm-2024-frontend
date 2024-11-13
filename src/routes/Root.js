@@ -1,13 +1,24 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import {Link, Outlet} from "react-router-dom";
 
 const Root = () => {
     return (
-        <nav className="navbar">
-            <div className="navbar-left">
-                <Link className="logo" to={'/'}>Vegan Valley</Link>
-            </div>
-        </nav>
+        <div>
+            <nav className="navbar">
+                <div className="navbar-left">
+                    <Link className="link" to={'/'}>Vegan Valley</Link>
+
+                </div>
+                <div className="navbar-middle">
+                    <Link className="link" to={'/about'}>About Us</Link>
+                    <Link className="link" to={'/menu'}>Our Menu</Link>
+                </div>
+                <div className="navbar-right">
+                    <h1>R</h1>
+                </div>
+            </nav>
+            <Outlet />
+        </div>
     )
 }
 
