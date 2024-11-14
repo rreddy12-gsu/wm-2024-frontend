@@ -19,3 +19,23 @@ body {
   text-decoration: none;
   padding-right: 10px;
 }
+
+.spacer {
+  width: 0.5%;
+  display: inline-block;
+}
+
+.menuItem {
+  border-radius: 10px;
+  background-color: darkseagreen;
+  width: 31%;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 2.5px;
+  margin-left: 2.5px;
+}
+
+.menuItem * {
+  padding: 5px;
+}

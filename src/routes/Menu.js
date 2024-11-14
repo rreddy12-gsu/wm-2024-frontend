@@ -4,25 +4,20 @@ import MenuItem from "./MenuItem.js"
 
 const items = getData();
 
-function PP({info}) {
-    return <p>{info}</p>
-}
-
 export default function Menu() {
     return (
-        <div>
+        <div className="menu">
             <h1>Our Menu</h1>
-            <ul>
                 {
                     items.map((item) => {
                         return (
-                            <li>
+                            <>
                                 <MenuItem item={item} />
-                            </li>
+                                <div className="spacer"></div>
+                            </>
                         )
                     })
                 }
-            </ul>
         </div>
     )
 }

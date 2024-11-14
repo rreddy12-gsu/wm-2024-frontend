@@ -9,6 +9,21 @@
             "name": "Mashed Potatoes",
             "ingredients": "potatoes, garlic, basil",
             "info": "hand-mashed potatoes with garlic and basil seasoning"
+        },
+        {
+            "name": "Boiled Peanuts",
+            "ingredients": "peanuts, salt, water, spices",
+            "info": "boiled peanuts with cajun seasoning"
+        },
+        {
+            "name": "Zachary Chan",
+            "ingredients": "Beer Chan, Maria Zufall",
+            "info": "my vice president <3"
+        },
+        {
+            "name": "Bloblo Shenpala",
+            "ingredients": "indian, mexico (double stinky)",
+            "info": "bloblo"
         }
     ]
 }
