@@ -7,7 +7,7 @@ const Root = () => {
             <nav className="navbar">
                 <div className="navbar-left">
                     <Link className="link" to={'/'}>Vegan Valley</Link>
-
+                    <img src="./logo.png" />
                 </div>
                 <div className="navbar-middle">
                     <Link className="link" to={'/about'}>About Us</Link>
