@@ -29,6 +29,7 @@ body {
   border-radius: 10px;
   background-color: darkseagreen;
   width: 31%;
+  height: stretch;
   display: inline-block;
   margin-top: 5px;
   margin-bottom: 5px;
